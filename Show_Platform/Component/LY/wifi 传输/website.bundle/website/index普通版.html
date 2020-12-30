@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<title>WiFi 传输</title>
+        <style>
+
+
+            .sel{
+                position: absolute;
+                filter:Alpha(opacity=50);
+                background-color: rgba(255, 255, 255, 0.5);
+                left:10%;
+                top:150px;
+                width: 80%;
+                height: 100px;
+               
+            }
+            .list{
+                position: absolute;
+                top: 300px;
+                left:10%;
+                width: 80%;
+
+            }
+
+            .fileA{
+                position: relative;
+                width:400px;
+                height: 35px;
+                left: 60px;
+                top:30px;
+                background-color:white;
+            }
+        
+            .blackA{
+                color:#FFF;
+                background-color: #219aff;
+                border-width:0px;
+                font-weight: bold;
+                font-size:16px;
+
+                position: relative;
+                left: 70px;
+                top: 32px;;
+                width: 100px;
+                height: 35px;
+                
+            }
+
+            img{
+                position: relative;
+                width: 250px;
+                height: 60px;
+                text-align:center;
+                top: 40px;
+
+            }
+        .foot{
+            position:absolute;
+            bottom:20px;
+            right:20px;
+            font-size:12px;
+
+        }
+
+        </style>
+	</head>
+    <body style="background-image:url('http://img0.bdstatic.com/img/image/shouye/%E6%94%BE%E7%A9%BA-%E5%93%8D%E6%B0%B4%E6%B9%96%E9%95%BF%E5%9F%8E-%E9%BB%84%E8%B6%8A%EF%BC%8DPC.jpg');background-repeat:no-repeat">
+        
+        
+        <div >
+            
+            <div style="text-align:center;"><img src='http://img.my.csdn.net/uploads/201604/22/1461293820_9458.png '/></div>
+
+            <div class="sel">
+
+                    <form action="index.html" method="post" enctype="multipart/form-data" accept-charset="utf-8" >
+                        <input class="fileA" type="file" name="uploadnewfile"/>
+                        <input type="submit" value="上传" class="blackA"/>
+                    </form>
+                    
+            </div>
+            <div class="list">
+                <fieldset>
+                    <legend style="color: white">历史列表</legend>
+                    <p style="color: white">%MyFiles%</p>
+                </fieldset>
+            </div>
+
+
+        </div>
+       
+        <div  class="foot">
+            <span style="color: white">版权所有:liangly</span>
+        </div>
+	</body>
+</html>

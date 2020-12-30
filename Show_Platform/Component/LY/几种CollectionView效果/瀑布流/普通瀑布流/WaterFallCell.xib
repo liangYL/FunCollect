@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="B4B-gf-eU5" customClass="WaterFallCell">
+            <rect key="frame" x="0.0" y="0.0" width="154" height="218"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="154" height="218"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zUk-M3-bdK">
+                        <rect key="frame" x="0.0" y="0.0" width="154" height="218"/>
+                        <animations/>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <animations/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="zUk-M3-bdK" secondAttribute="bottom" id="3sQ-3K-wkJ"/>
+                <constraint firstItem="zUk-M3-bdK" firstAttribute="leading" secondItem="B4B-gf-eU5" secondAttribute="leading" id="OOj-qw-PBg"/>
+                <constraint firstItem="zUk-M3-bdK" firstAttribute="top" secondItem="B4B-gf-eU5" secondAttribute="top" id="TjV-3U-sdz"/>
+                <constraint firstAttribute="trailing" secondItem="zUk-M3-bdK" secondAttribute="trailing" id="Vgk-Zh-gnO"/>
+            </constraints>
+            <size key="customSize" width="154" height="218"/>
+            <connections>
+                <outlet property="img" destination="zUk-M3-bdK" id="JMs-df-82J"/>
+            </connections>
+            <point key="canvasLocation" x="269" y="190"/>
+        </collectionViewCell>
+    </objects>
+</document>
